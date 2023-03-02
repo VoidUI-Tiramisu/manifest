@@ -27,6 +27,10 @@
           fetch="https://github.com/VoidUI-Tiramisu"
           revision="aosp-13" />
 
+  <remote name="voidui-mtk"
+          fetch="https://github.com/VoidUI-Tiramisu"
+          revision="aosp-13-mtk" />
+
   <remote name="voidui-devices"
           fetch="https://github.com/VoidUI-Devices"
           revision="aosp-13" />
@@ -55,7 +59,7 @@
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="voidui" />
   <project path="frameworks/base" name="frameworks_base" remote="voidui" />
-  <project path="frameworks/native" name="frameworks_native" remote="voidui" />
+  <project path="frameworks/native" name="frameworks_native" remote="voidui-mtk" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="pixel" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="pixel" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="pixel" />
@@ -82,7 +86,7 @@
   <project path="development" name="development" remote="pixel" />
   <project path="device/google/cuttlefish" name="device_google_cuttlefish" remote="pixel" />
   <project path="kernel/configs" name="kernel_configs" remote="pixel" />
-  <project path="manifest" name="manifest" remote="voidui" />
+  <project path="manifest" name="manifest" remote="voidui-mtk" />
   <project path="libcore" name="libcore" remote="pixel" />
   <project path="platform_testing" name="platform_testing" remote="pixel" />
 
