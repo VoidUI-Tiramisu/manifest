@@ -31,6 +31,10 @@
           fetch="https://github.com/VoidUI-Devices"
           revision="aosp-13" />
 
+  <remote name="voidui-weekly"
+          fetch="https://github.com/VoidUI-Tiramisu"
+          revision="aosp-13-weekly" />
+
   <!-- External repos -->
   <project path="external/avb" name="external_avb" remote="pixel" />
   <project path="external/boringssl" name="external_boringssl" remote="pixel" />
@@ -84,7 +88,7 @@
   <project path="device/google/cuttlefish" name="device_google_cuttlefish" remote="pixel" />
   <project path="device/google/contexthub" name="device_google_contexthub" remote="pixel" />
   <project path="kernel/configs" name="kernel_configs" remote="pixel" />
-  <project path="manifest" name="manifest" remote="voidui" />
+  <project path="manifest" name="manifest" remote="voidui-weekly" />
   <project path="libcore" name="libcore" remote="pixel" />
   <project path="platform_testing" name="platform_testing" remote="pixel" />
 

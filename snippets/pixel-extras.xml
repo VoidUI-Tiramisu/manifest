@@ -18,7 +18,7 @@
 
   <!-- General repos -->
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="voidui" />
-  <project path="vendor/aosp" name="vendor_aosp" remote="voidui" />
+  <project path="vendor/aosp" name="vendor_aosp" remote="voidui-weekly" />
   <project path="vendor/gms" name="vendor_gms" remote="pixel-gitlab" clone-depth="1" />
   <project path="vendor/custom-preference" name="vendor_custom-preference" remote="voidui" />
   <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="voidui" />
@@ -37,12 +37,12 @@
   <project path="packages/apps/RepainterService" name="packages_apps_RepainterService" remote="pixel-plus" />
   <project path="packages/apps/ParanoidGlyph" name="packages_apps_ParanoidGlyph" remote="pixel" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="pixel" />
-  <project path="packages/apps/Updater" name="packages_apps_Updater" remote="voidui" />
+  <project path="packages/apps/Updater" name="packages_apps_Updater" remote="voidui-weekly" />
   <project path="packages/overlays/ThemeIcons" name="packages_overlays_ThemeIcons" remote="pixel-plus" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="voidui" />
 
   <!-- Official Devices - OTA Script Generation -->
-  <project path="vendor/officialdevices" name="official_devices" remote="voidui-devices" />
+  <project path="vendor/officialdevices" name="weekly_updates_ota" remote="voidui-devices" />
 
   <!-- Prebuilts repos -->
   <project path="prebuilts/extract-tools" name="prebuilts_extract-tools" remote="pixel" clone-depth="1" />
