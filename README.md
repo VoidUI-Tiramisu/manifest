@@ -1,11 +1,13 @@
-# Pixel Experience #
+![VoidUI_Welcome_logo](https://github.com/VoidUI-Tiramisu/manifest/assets/34755141/34db2823-4fe0-4d21-ae68-d144165aec26)
+
+# VoidUI Tiramisu Project - Android 13.0 - QPR3
 
 ### Sync ###
 
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/PixelExperience/manifest -b thirteen-plus
+repo init -u https://github.com/VoidUI-Tiramisu/manifest -b aosp-13
 
 # Sync
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
@@ -24,9 +26,3 @@ $ lunch aosp_$device-userdebug
 # Build the code
 $ mka bacon -jX
 ```
-
-### Submitting Patches ###
-
-Patches are always welcome! Please submit your patches to our Gerrit.
-
-[Gerrit push guide](https://wiki.pixelexperience.org/help/submit-patch/)

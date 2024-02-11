@@ -9,12 +9,22 @@
   <project path="external/ntfs-3g" name="external_ntfs-3g" remote="pixel" />
   <project path="external/tinyxml" name="external_tinyxml" remote="pixel" />
 
+  <!-- External repos (VoidUI) -->
+  <project path="external/piex" name="external_piex" remote="voidui" />
+  <project path="external/fastrpc" name="external_fastrpc" remote="voidui" />
+
+  <!-- GameSpace Chaldeaprjkt -->
+  <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="voidui" />
+
   <!-- General repos -->
-  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="pixel" />
-  <project path="vendor/aosp" name="vendor_aosp" remote="pixel-plus" />
+  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="voidui" />
+  <project path="vendor/aosp" name="vendor_aosp" remote="voidui" />
   <project path="vendor/gms" name="vendor_gms" remote="pixel-gitlab" clone-depth="1" />
-  <project path="vendor/custom-preference" name="vendor_custom-preference" remote="pixel" />
-  <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="pixel-plus" />
+  <project path="vendor/custom-preference" name="vendor_custom-preference" remote="voidui" />
+  <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="voidui" />
+
+  <!-- Hardware Xiaomi -->
+  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="voidui" />
 
   <!-- Hardware repos -->
   <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="pixel" />
@@ -27,9 +37,12 @@
   <project path="packages/apps/RepainterService" name="packages_apps_RepainterService" remote="pixel-plus" />
   <project path="packages/apps/ParanoidGlyph" name="packages_apps_ParanoidGlyph" remote="pixel" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="pixel" />
-  <project path="packages/apps/Updates" name="packages_apps_Updates" remote="pixel" />
+  <project path="packages/apps/Updater" name="packages_apps_Updater" remote="voidui" />
   <project path="packages/overlays/ThemeIcons" name="packages_overlays_ThemeIcons" remote="pixel-plus" />
-  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="pixel" />
+  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="voidui" />
+
+  <!-- Official Devices - OTA Script Generation -->
+  <project path="vendor/officialdevices" name="official_devices" remote="voidui-devices" />
 
   <!-- Prebuilts repos -->
   <project path="prebuilts/extract-tools" name="prebuilts_extract-tools" remote="pixel" clone-depth="1" />
@@ -45,4 +58,5 @@
 
   <!-- Tools Repos -->
   <project path="tools/extract-utils" name="tools_extract-utils" remote="pixel" />
+  <project path="tools/platform-compat" name="tools_platform-compat" remote="voidui" />
 </manifest>
